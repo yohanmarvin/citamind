@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -12,13 +13,22 @@
     android:orientation="vertical">
 
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_logo_noir"
+        android:id="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/identifiant"
-        android:hint="Nom d'utilisateur" />
+        android:hint="Nom d'utilisateur"
+        android:gravity="center"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -26,7 +36,8 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/motdepasse"
-        android:hint="Mot de passe" />
+        android:hint="Mot de passe"
+        android:gravity="center"/>
 
     <Button
         android:text="login"
