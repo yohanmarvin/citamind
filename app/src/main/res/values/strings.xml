@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Citamind</string>
+    <string name="pas_de_compte_cliquez_ici"><u>Pas de compte ? Cliquez ici !</u></string>
+    <string name="mauvaise_combinaise_utilisateur_mot_de_passe">Mauvaise combinaisons utilisateur/mot de passe !</string>
+    <string name="cr_ez_votre_compte">Créez votre compte !</string>
+</resources>

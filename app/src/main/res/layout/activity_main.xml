@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="citamind.citamind.MainActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/identifiant"
+        android:hint="Nom d'utilisateur" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/motdepasse"
+        android:hint="Mot de passe" />
+
+    <Button
+        android:text="login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_login"
+        android:onClick="identification"
+        />
+
+    <TextView
+        android:text="@string/mauvaise_combinaise_utilisateur_mot_de_passe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mauvaisecombinaison"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:text="@string/pas_de_compte_cliquez_ici"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/minscrire"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:onClick="inscription"/>
+</LinearLayout>
