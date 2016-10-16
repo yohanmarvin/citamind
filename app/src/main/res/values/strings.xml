@@ -3,4 +3,7 @@
     <string name="pas_de_compte_cliquez_ici"><u>Pas de compte ? Cliquez ici !</u></string>
     <string name="mauvaise_combinaise_utilisateur_mot_de_passe">Mauvaise combinaisons utilisateur/mot de passe !</string>
     <string name="cr_ez_votre_compte">Créez votre compte !</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
