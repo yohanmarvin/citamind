@@ -46,7 +46,7 @@ public class HomeActivity extends AppCompatActivity {
 
         //notif
         AHNotification notification = new AHNotification.Builder()
-                .setText("9")
+                .setText("7")
                 .setBackgroundColor(ContextCompat.getColor(HomeActivity.this, R.color.colorAccent))
                 .setTextColor(ContextCompat.getColor(HomeActivity.this, R.color.colorBottomNavigationPrimary))
                 .build();
